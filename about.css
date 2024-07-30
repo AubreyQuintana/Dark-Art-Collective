@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/back-img.jpg);
+  background-color: black;
+  background-size: 50%;
+}
+
+@media (max-height: 680) {
+  body {
+    background-size: cover;
+  }
+}
+
+.container-header {
+  background-color: black;
+}
+
+.nav-item {
+  font-weight: 700;
+  font-size: large; 
+}
+
+.container-footer {
+  color: gray;
+  width: 100vw;
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+}
