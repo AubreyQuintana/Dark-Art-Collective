@@ -3,7 +3,7 @@ body {
   flex-direction: column;
   background-image: url(./images/back-img.jpg);
   background-color: black;
-  background-size: 50%;
+  background-size: 60%;
 }
 
 @media (max-height: 680) {
@@ -14,6 +14,13 @@ body {
 
 .container-header {
   background-color: black;
+}
+
+.im-fell-english-sc-regular {
+  font-family: "IM Fell English SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xxx-large;
 }
 
 .nav-item {
@@ -48,7 +55,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  gap: 30px;
+  gap: 50px;
   align-self: center;
   overflow: auto;
 }
@@ -59,7 +66,9 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
-  width: 400px;
+  width: 500px;
+  margin-bottom: 30px;
+  
 }
 
 .title {
@@ -73,20 +82,19 @@ body {
   padding: 20px;
 }
 
-.card mark {
+.mark {
   grid-column: 1;
   justify-self: end;
 }
 
-.card sam {
+.sam {
   grid-column: 2;
   justify-self: start;
 }
 
 .img {
-  height: 300px;
-  width: 300px;
-  border-radius: 75%;
+  height: 550px;
+  width: 470px;
   justify-items: center;
-  margin: 30px;
+  margin: 20px;
 }
