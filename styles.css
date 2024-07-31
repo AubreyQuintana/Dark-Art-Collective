@@ -23,15 +23,22 @@ body {
   font-size: xxx-large;
 }
 
+.arsenal-sc-regular {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+  padding: 20px
+}
+
 .nav-item {
   font-weight: 700;
   font-size: large; 
 }
 
 .container-main {
-  margin-top: 100px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 100px;
+  text-align: center;
   justify-content: center;
   align-items: center;
   background-color: black;
@@ -96,5 +103,9 @@ body {
   height: 550px;
   width: 470px;
   justify-items: center;
+  margin: 20px;
+}
+
+.carousel {
   margin: 20px;
 }
