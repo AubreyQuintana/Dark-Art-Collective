@@ -116,9 +116,13 @@ body {
   .sam {
     grid-column: 1;
     justify-self: center;
+    justify-content: center;
+    align-items: center;
   }
 
   .mark {
     justify-self: center;
+    justify-content: center;
+    align-items: center;
   }
 }
