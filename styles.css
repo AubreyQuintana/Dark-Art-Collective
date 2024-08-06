@@ -5,6 +5,7 @@ body {
   background-color: black;
   background-size: 60%;
   background-attachment: fixed;
+  overflow: auto;
 }
 
 .container-header {
@@ -114,6 +115,12 @@ body {
 }
 
 @media screen and (max-width: 680px) {
+
+  .body {
+    background-size: 100vw;
+    background-attachment: fixed;
+    overflow: auto;
+  }
 
   .divider {
     width: 250px;
