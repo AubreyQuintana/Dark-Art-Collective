@@ -118,10 +118,16 @@ body {
     background-size: cover;
   }
 
+  .divider {
+    width: 300px;
+  }
+
   .container-main {
     margin: 30px;
     justify-content: center;
     justify-self: center;
+    align-items: center;
+    align-self: center;
   
   }
 
