@@ -7,12 +7,6 @@ body {
   background-attachment: fixed;
 }
 
-@media (max-height: 680) {
-  body {
-    background-size: cover;
-  }
-}
-
 .container-header {
   background-color: black;
 }
@@ -42,9 +36,12 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
+  justify-self: center;
+  align-self: center;
   background-color: black;
   color: gray;
   padding: 50px;
+  width:fit-content;
 }
 
 .container-footer {
@@ -112,7 +109,34 @@ body {
   margin: 20px;
 }
 
+.divider {
+  width: 400px;
+}
+
 @media screen and (max-width: 680px) {
+  body {
+    background-size: cover;
+  }
+
+  .container-main {
+    margin: 30px;
+    justify-content: center;
+    justify-self: center;
+  
+  }
+  
+  .divider {
+    width: 200px;
+  }
+
+  .im-fell-english-sc-regular {
+    font-size: x-large;
+  }
+
+  .arsenal-sc-regular {
+    font-size: large;
+  }
+
   .sam {
     grid-column: 1;
     justify-self: center;
