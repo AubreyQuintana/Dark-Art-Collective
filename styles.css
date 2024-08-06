@@ -59,6 +59,21 @@ body {
 }
 
 /* Styling for About Page */
+@media (max-height: 680px) {
+  .sam {
+    grid-column: 1;
+    justify-self: center;
+  }
+
+  .mark {
+    justify-self: center;
+  }
+
+  .img {
+    height: 300px;
+    width: 120px;
+  }
+}
 
 .about {
   display: grid;
@@ -99,27 +114,6 @@ body {
 .sam {
   grid-column: 2;
   justify-self: start;
-}
-
-@media (max-height: 680px) {
-  .sam {
-    grid-column: 1;
-    justify-self: center;
-  }
-
-  .mark {
-    justify-self: center;
-  }
-}
-
-@media (max-height: 680px) {
-  .about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-  }
 }
 
 .img {
