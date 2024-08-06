@@ -59,21 +59,6 @@ body {
 }
 
 /* Styling for About Page */
-@media (max-height: 680px) {
-  .sam {
-    grid-column: 1;
-    justify-self: center;
-  }
-
-  .mark {
-    justify-self: center;
-  }
-
-  .img {
-    height: 300px;
-    width: 120px;
-  }
-}
 
 .about {
   display: grid;
@@ -121,6 +106,22 @@ body {
   width: 470px;
   justify-items: center;
   margin: 20px;
+}
+
+@media screen and (max-height: 680px) {
+  .sam {
+    grid-column: 1;
+    justify-self: center;
+  }
+
+  .mark {
+    justify-self: center;
+  }
+
+  .img {
+    height: 300px;
+    width: 120px;
+  }
 }
 
 .carousel {
