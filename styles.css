@@ -121,9 +121,4 @@ body {
   .mark {
     justify-self: center;
   }
-
-  .img {
-    height: 300px;
-    width: 120px;
-  }
 }
