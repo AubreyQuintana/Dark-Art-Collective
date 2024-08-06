@@ -102,6 +102,17 @@ body {
 }
 
 @media (max-height: 680px) {
+  .sam {
+    grid-column: 1;
+    justify-self: center;
+  }
+
+  .mark {
+    justify-self: center;
+  }
+}
+
+@media (max-height: 680px) {
   .about {
     display: flex;
     flex-direction: column;
