@@ -101,13 +101,13 @@ body {
   justify-self: start;
 }
 
-@media (max-height: 480px) {
+@media (max-height: 680px) {
   .about {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     align-self: center;
-    overflow: auto;
   }
 }
 
