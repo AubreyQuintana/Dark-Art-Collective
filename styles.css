@@ -108,7 +108,11 @@ body {
   margin: 20px;
 }
 
-@media screen and (max-height: 680px) {
+.carousel {
+  margin: 20px;
+}
+
+@media screen and (max-width: 680px) {
   .sam {
     grid-column: 1;
     justify-self: center;
@@ -122,8 +126,4 @@ body {
     height: 300px;
     width: 120px;
   }
-}
-
-.carousel {
-  margin: 20px;
 }
